@@ -1,0 +1,55 @@
+body {
+    background-image: url('shrekbackground.jpg');
+    Display: block;
+    font-style: normal;
+    font-size: xx-large;
+    font-family: Spud_AF_Crisp, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 32px;
+    color: #215732;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+}
+
+h1 {
+    font-style: italic;
+    background-color: white;
+  
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.fortnitebackground {
+    background-image: url('forniteman.jpg');
+}
+
+#stop {
+    font-style: normal;
+    font-weight: 900;
+    color: purple;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+}
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(101, 93, 71);
+    background-color: white;
+    font-size: 50px;
+}
