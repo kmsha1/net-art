@@ -1,0 +1,44 @@
+body { 
+    margin: 0;  
+  }
+
+  .quiltGrid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    height: 250vh;                         
+    width: 100%;                          
+}
+
+
+.quiltGrid-image {
+    background-size: cover; 
+    background-position: center; 
+}
+
+.image1 { background-image: url('pattern.jpg'); }
+.image2 { background-image: url('pattern2.jpg'); }
+.image3 { background-image: url('pattern3.jpg'); }
+.image4 { background-image: url('pattern4.jpg'); } 
+.image5 { background-image: url('pattern5.jpg'); }
+.image6 { background-image: url('pattern6.jpg');} 
+.image7 { background-image: url('pattern.jpg'); }
+.image8 { background-image: url('pattern2.jpg'); } 
+.image9 { background-image: url('pattern3.jpg'); }
+.image10 { background-image: url('pattern4.jpg'); }
+.image11 { background-image: url('pattern5.jpg'); } 
+.image12 { background-image: url('pattern6.jpg'); }
+.image13 { background-image: url('pattern.jpg'); }
+.image14 { background-image: url('pattern2.jpg'); }
+.image15 { background-image: url('pattern3.jpg'); }
+.image16 { background-image: url('pattern4.jpg'); } 
+.image17 { background-image: url('pattern5.jpg'); }
+.image18 { background-image: url('pattern6.jpg');} 
+.image19 { background-image: url('pattern.jpg'); }
+.image20 { background-image: url('pattern2.jpg'); } 
+.image21 { background-image: url('pattern3.jpg'); }
+.image22 { background-image: url('pattern4.jpg'); }
+.image23 { background-image: url('pattern5.jpg'); } 
+.image24 { background-image: url('pattern6.jpg'); }
+
+
