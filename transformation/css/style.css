@@ -1,0 +1,56 @@
+* body {
+    margin: 0;
+}
+
+.movingGrid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  height: 250vh;                         
+  width: 100%;                          
+}
+
+.movingGrid-image {
+  background-size: cover; 
+  background-position: center; 
+}
+
+.movingGrid-image:hover {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.movingGrid-image:active {
+  transform: scale(1.1) rotate(180deg);
+  background-image: url('pattern7.jpg');
+}
+
+
+.image1 { background-image: url('pattern.jpg'); }
+.image2 { background-image: url('pattern2.jpg'); }
+.image3 { background-image: url('pattern3.jpg'); }
+.image4 { background-image: url('pattern4.jpg'); } 
+.image5 { background-image: url('pattern5.jpg'); }
+.image6 { background-image: url('pattern6.jpg');} 
+.image7 { background-image: url('pattern.jpg'); }
+.image8 { background-image: url('pattern2.jpg'); } 
+.image9 { background-image: url('pattern3.jpg'); }
+.image10 { background-image: url('pattern4.jpg'); }
+.image11 { background-image: url('pattern5.jpg'); } 
+.image12 { background-image: url('pattern6.jpg'); }
+.image13 { background-image: url('pattern.jpg'); }
+.image14 { background-image: url('pattern2.jpg'); }
+.image15 { background-image: url('pattern3.jpg'); }
+.image16 { background-image: url('pattern4.jpg'); } 
+
+
+h1 {
+  color: #2E8B57;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #34714d;
+  text-align: center;
+  margin-top: 20px;
+}
