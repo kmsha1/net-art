@@ -1,0 +1,123 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px;
+  }
+
+  .intro-screen {
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    background: url('barbiezombie.jpg') 
+  }
+  
+  .continue-button {
+    background-color: hotpink;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  .continue-button:hover {
+    background-color: rgb(0, 36, 1);
+    transform: scale(1.05);
+  }
+
+  .outfit-screen {
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+    background: url('zombieback.jpg') 
+  }
+
+  .outfits-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 600px;                         
+    width: 800px;             
+    gap: 40px 60px;          
+}
+
+.outfit-image {
+    background-size: cover; 
+    background-position: center; 
+}
+
+.outfit1 { background-image: url('outfit1.jpg'); }
+.outfit2 { background-image: url('outfit2.jpg'); }
+.outfit3 { background-image: url('outfit3.jpg'); }
+.outfit4 { background-image: url('outfit4.jpg'); } 
+.outfit5 { background-image: url('outfit5.jpg'); }
+.outfit6 { background-image: url('outfit6.jpg');} 
+
+.pink-opaque-box {
+    background-color: rgba(255, 182, 193, 0.8);
+    padding: 20px 40px;
+    border-radius: 20px;
+  }
+  
+
+  h1 {
+    color: rgb(65, 93, 30);
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    color: rgb(6, 66, 25);
+  }
+
+
+  h4 {
+    text-align: center;
+    color: rgb(6, 66, 25);
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; 
+  }
+  
+  .story {
+    float:left;
+    padding-left:30px;
+    overflow-y: auto;
+    width: 50%;
+    background-color: #ffe6f0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .options {
+    float:right;
+    padding-left:30px;
+    overflow-y: auto;
+    width: 40%;
+    background-color: #ffcce5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .options a {
+    color: hotpink;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .image-container {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 80%;   
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+ 
